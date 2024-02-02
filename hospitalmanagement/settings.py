@@ -136,7 +136,7 @@ STATICFILES_DIRS=[
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-a4c64.up.railway.app/'
+    'https://web-production-a4c64.up.railway.app'
 ]
 
 MEDIA_ROOT=os.path.join(BASE_DIR,'static')
