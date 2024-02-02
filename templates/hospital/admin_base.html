@@ -306,7 +306,12 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <div class="navbar-nav" style=" margin-left: 90%;">
 
-            <a href="/logout" class="nav-item nav-link">Logout</a>
+            {% comment %} <a href="/logout" name='logout' class="nav-item nav-link">Logout</a> {% endcomment %}
+
+            <form method="post" action="{% url 'logout' %}">
+              {% csrf_token %}
+              <button type="submit">logout</button>
+           </form>
           </div>
         </div>
       </nav>
