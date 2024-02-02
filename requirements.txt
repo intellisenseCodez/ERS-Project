@@ -8,7 +8,8 @@ charset-normalizer==3.3.2
 click==8.1.7
 cryptography==42.0.2
 cssselect2==0.7.0
-Django==3.0.5
+dj-database-url==2.1.0
+Django==5.0.1
 django-widget-tweaks==1.4.8
 gunicorn==21.2.0
 html5lib==1.1
